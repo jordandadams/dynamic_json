@@ -1,0 +1,56 @@
+{
+    "elements": [
+        {
+            "title": {
+                "text": "My First Title",
+                "color": "red",
+                "fontSize": "20px"
+            },
+            "description": {
+                "text": "This is my first description.",
+                "color": "red",
+                "fontSize": "20px"
+            },
+            "buttons": [
+                {
+                    "text": "Button 1",
+                    "action": "alert('Button 1 clicked');",
+                    "buttonColor": "green",
+                    "fontSize": "15px"
+                },
+                {
+                    "text": "Button 2",
+                    "action": "alert('Button 2 clicked');",
+                    "buttonColor": "blue",
+                    "fontSize": "15px"
+                }
+            ]
+        },
+        {
+            "title": {
+                "text": "My Second Title",
+                "color": "purple",
+                "fontSize": "25px"
+            },
+            "description": {
+                "text": "This is my second description.",
+                "color": "purple",
+                "fontSize": "25px"
+            },
+            "buttons": [
+                {
+                    "text": "Button 3",
+                    "action": "alert('Button 3 clicked');",
+                    "buttonColor": "pink",
+                    "fontSize": "15px"
+                },
+                {
+                    "text": "Button 4",
+                    "action": "home.test();",
+                    "buttonColor": "orange",
+                    "fontSize": "15px"
+                }
+            ]
+        }
+    ]
+}
